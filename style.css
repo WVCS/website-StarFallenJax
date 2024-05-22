@@ -103,6 +103,35 @@ h1 {
           animation-delay: 4.5s;
 }
 
+.line:nth-child(8) {
+  margin-left: -50%;
+}
+.line:nth-child(8)::after {
+  -webkit-animation-delay: 3.2s;
+          animation-delay: 3.2s;
+}
+.line:nth-child(9) {
+  margin-left: 50%;
+}
+.line:nth-child(9)::after {
+  -webkit-animation-delay: 4.2s;
+          animation-delay: 4.2s;
+}
+.line:nth-child(10) {
+  margin-left: -60%;
+}
+.line:nth-child(10)::after {
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+.line:nth-child(11) {
+  margin-left: 60%;
+}
+.line:nth-child(11)::after {
+  -webkit-animation-delay: 5.5s;
+          animation-delay: 5.5s;
+}
+
 @-webkit-keyframes drop {
   0% {
     top: -50%;
