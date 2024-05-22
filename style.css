@@ -146,6 +146,20 @@ h1 {
   -webkit-animation-delay: 6.7s;
           animation-delay: 6.7s;
 }
+.line:nth-child(14) {
+  margin-left: 40%;
+}
+.line:nth-child(14)::after {
+  -webkit-animation-delay: 5.7s;
+          animation-delay: 5.7s;
+}
+.line:nth-child(15) {
+  margin-left: -40%;
+}
+.line:nth-child(15)::after {
+  -webkit-animation-delay: 6.2s;
+          animation-delay: 6.2s;
+}
 @-webkit-keyframes drop {
   0% {
     top: -50%;
